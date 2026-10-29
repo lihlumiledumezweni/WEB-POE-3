@@ -19,3 +19,19 @@ HLUMIE'S NGO is a multi-page web platform designed to empower women by providing
 * **Interactive Pseudo-States:** Added comprehensive `:hover`, `:focus`, `:active`, and `:focus-visible` pseudo-classes to all interactive buttons, links, and form controls for improved accessibility.
 * **Google Fonts Integration:** Linked Google Fonts (`Inter` and `Playfair Display`) via HTML `<link>` tags in the document head and defined custom font family CSS variables.
 * **Changelog & Documentation:** Updated the README changelog with detailed, dated entries tracking all revision milestones.
+
+## Project Structure & File Manifest
+```text
+WEB-POE-3/
+│
+├── index.html          # Home page (includes academic cover details, emergency links & core pillars)
+├── about.html          # About Us page (history, mission, vision, timeline, budget, and references)
+├── services.html       # Services page (comprehensive breakdown of NGO support offerings)
+├── resources.html      # Resources page (downloadable toolkits, safety guides, and interactive map links)
+├── contact.html        # Contact page (fully validated interactive enquiry form)
+├── css/
+│   └── style.css       # Shared stylesheet with custom variables, media queries & lightbox styling
+├── js/
+│   └── script.js       # Client-side JavaScript for form validation and dynamic image lightbox
+└── image/
+    └── logo.jpg        # Organization branding logo
